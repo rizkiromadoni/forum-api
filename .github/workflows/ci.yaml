@@ -30,7 +30,7 @@ jobs:
                 PGPORT: ${{ secrets.PGPORT_TEST }}
                 PGUSER: ${{ secrets.PGUSER_TEST }}
                 PGPASSWORD: ${{ secrets.PGPASSWORD_TEST }}
-                PGDATABASE: $${{ secrets.PGDATABASE_TEST }}
+                PGDATABASE: ${{ secrets.PGDATABASE_TEST }}
                 ACCESS_TOKEN_KEY: secret
                 REFRESH_TOKEN_KEY: terces
                 ACCESS_TOKEN_AGE: 3600
